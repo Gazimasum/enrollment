@@ -33,7 +33,7 @@ class StudentController extends Controller
 //        exit();
         //return view('admin.dashboard');
         $email = $request->student_email;
-        $password= md5($request->student_password);
+        $password= $request->student_password;
         //echo $password; exit();
 
         $result = DB::table('student_tbl')

@@ -33,11 +33,11 @@
                 </div>
                 <div class="card mb-6">
                     <div class="card-body overview">
-                        <ul class="achivements">
+                        {{-- <ul class="achivements">
                             <li><p>34</p><p>Projects</p></li>
                             <li><p>23</p><p>Task</p></li>
                             <li><p>29</p><p>Completed</p></li>
-                        </ul>
+                        </ul> --}}
                         <div class="wrapper about-user">
                             <h2 class="card-title mt-4 mb-3">About</h2>
                             <p>The total information of this student are given below </p>

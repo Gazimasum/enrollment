@@ -45,7 +45,7 @@ public function logout(){
     {
         //return view('admin.dashboard');
         $email = $request->admin_email;
-        $password= md5($request->admin_pass);
+        $password= $request->admin_pass;
         $result = DB::table('admin_tbl')
             ->where('admin_email',$email)
             ->where ('admin_pass',$password)

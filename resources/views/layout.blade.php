@@ -206,7 +206,7 @@
                         <img src="http://via.placeholder.com/47x47" alt="">
                     </div>
                     <div class="details">
-                        <p class="user-name">Shuvo sarker</p>
+                        <p class="user-name">Admin</p>
                         <p class="designation">Developer</p>
                     </div>
                 </div>
@@ -237,10 +237,10 @@
                         <div class="collapse" id="layoutsSubmenu">
                             <ul class="nav flex-column sub-menu">
                                 <li class="nav-item">
-                                    <a class="nav-link" href="{{ URL::to('/tutionfee') }}">Tuition free</a>
+                                    <a class="nav-link" href="#">Tuition free</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="pages/layout/rtl-layout.html">Result</a>
+                                    <a class="nav-link" href="#">Result</a>
                                 </li>
 
                             </ul>

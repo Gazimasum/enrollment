@@ -16,7 +16,7 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>Salt Admin</title>
+    <title>Student</title>
     <!-- plugins:css -->
     <link rel="stylesheet" href="{{asset('node_modules/mdi/css/materialdesignicons.min.css')}}">
     <link rel="stylesheet" href="{{asset('node_modules/perfect-scrollbar/dist/css/perfect-scrollbar.min.css')}}">
@@ -134,7 +134,7 @@
     <!-- partial:partials/_navbar.html -->
     <nav class="navbar navbar-light col-lg-12 col-12 p-0 fixed-top d-flex flex-row">
         <div class="text-center navbar-brand-wrapper">
-            <a class="navbar-brand brand-logo" href="{{ URL::to('/student_dashboard') }}"><img src="images/salt_logo.svg" alt="Logo"></a>
+            <a class="navbar-brand brand-logo" href="{{ URL::to('/student_dashboard') }}">Student</a>
         </div>
         <div class="navbar-menu-wrapper d-flex align-items-center">
             <button class="navbar-toggler navbar-toggler align-self-center mr-2" type="button" data-toggle="minimize">

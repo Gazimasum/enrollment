@@ -45,8 +45,8 @@
 
 
                                     <td>
-                                        <button class="btn btn-outline-primary">View</button>
-                                        <button class="btn btn-outline-warning">Edit</button>
+                                      <a href="{{URL :: to('/student_view/'.$v_student->student_id)}}"><button class="btn btn-outline-primary">View</button></a>
+                                    <a href="{{URL :: to('/student_edit/'.$v_student->student_id)}}"><button class="btn btn-outline-warning">Edit</button></a>
                                         <button class="btn btn-outline-danger">Delete</button>
                                     </td>
                                 </tr>

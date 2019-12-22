@@ -27,42 +27,42 @@
                                     {{csrf_field()}}
                                     <div class="form-group">
                                         <label for="exampleInputEmail1">Student Name</label>
-                                        <input type="text" class="form-control p-input" name="student_name" aria-describedby="emailHelp" placeholder="Enter name">
+                                        <input type="text" class="form-control p-input" name="student_name" aria-describedby="emailHelp" placeholder="Enter name" required="true">
 
                                     </div>
                                     <div class="form-group">
                                         <label for="exampleInputEmail1">Student Roll</label>
-                                        <input type="text" class="form-control p-input" name="student_roll" aria-describedby="emailHelp" placeholder="Enter Roll">
+                                        <input type="text" class="form-control p-input" name="student_roll" aria-describedby="emailHelp" placeholder="Enter Roll"required="true">
 
                                     </div>
                                     <div class="form-group">
                                         <label for="exampleInputEmail1">Student Fathers Name</label>
-                                        <input type="text" class="form-control p-input" name="student_fathersname" aria-describedby="emailHelp" placeholder="Enter Fathers Name">
+                                        <input type="text" class="form-control p-input" name="student_fathersname" aria-describedby="emailHelp" placeholder="Enter Fathers Name"required="true">
 
                                     </div>
                                     <div class="form-group">
                                         <label for="exampleInputEmail1">Student Mothers Name</label>
-                                        <input type="text" class="form-control p-input" name="student_mothersname" aria-describedby="emailHelp" placeholder="Enter Mothers Name">
+                                        <input type="text" class="form-control p-input" name="student_mothersname" aria-describedby="emailHelp" placeholder="Enter Mothers Name"required="true">
 
                                     </div>
                                     <div class="form-group">
                                         <label for="exampleInputEmail1">Student Email</label>
-                                        <input type="email" class="form-control p-input" name="student_email" aria-describedby="emailHelp" placeholder="Enter Email">
+                                        <input type="email" class="form-control p-input" name="student_email" aria-describedby="emailHelp" placeholder="Enter Email"required="true">
 
                                     </div>
                                     <div class="form-group">
                                         <label for="exampleInputEmail1">Password</label>
-                                        <input type="password" class="form-control p-input" name="student_password" aria-describedby="emailHelp" placeholder="Enter Password">
+                                        <input type="password" class="form-control p-input" name="student_password" aria-describedby="emailHelp" placeholder="Enter Password"required="true">
 
                                     </div>
                                     <div class="form-group">
                                         <label for="exampleInputEmail1">Student Phone Number</label>
-                                        <input type="text" class="form-control p-input" name="student_phone" aria-describedby="emailHelp" placeholder="Enter Phone Number">
+                                        <input type="text" class="form-control p-input" name="student_phone" aria-describedby="emailHelp" placeholder="Enter Phone Number"required="true">
 
                                     </div>
                                     <div class="form-group">
                                         <label for="exampleInputEmail1">Student Address</label>
-                                        <input type="text" class="form-control p-input" name="student_address" aria-describedby="emailHelp" placeholder="Enter Address">
+                                        <input type="text" class="form-control p-input" name="student_address" aria-describedby="emailHelp" placeholder="Enter Address"required="true">
 
                                     </div>
 
@@ -72,19 +72,19 @@
                                         <div class="row">
                                             <div class="col-12">
                                                 <label for="exampleInputFile2" class="btn btn-outline-primary btn-sm"><i class="mdi mdi-upload btn-label btn-label-left"></i>Browse</label>
-                                                <input type="file" class="form-control-file" name="student_image" id="exampleInputFile2" aria-describedby="fileHelp">
+                                                <input type="file" class="form-control-file" name="student_image" id="exampleInputFile2" aria-describedby="fileHelp"required="true">
                                                 <small id="fileHelp" class="form-text text-muted">This is some placeholder block-level help text for the above input. It's a bit lighter and easily wraps to a new line.</small>
                                             </div>
                                         </div>
                                     </div>
                                     <div class="form-group">
                                         <label for="exampleInputEmail1">Student Admission Year</label>
-                                        <input type="date" class="form-control p-input" name="student_admissionyear" aria-describedby="emailHelp" placeholder="Enter Admission year">
+                                        <input type="date" class="form-control p-input" name="student_admissionyear" aria-describedby="emailHelp" placeholder="Enter Admission year"required="true">
 
                                     </div>
                                     <div class="form-group">
                                         <label for="exampleInputEmail1">Student Department</label>
-                                        <select type="text" class="form-control p-input" name="student_department">
+                                        <select type="text" class="form-control p-input" name="student_department"required="true">
                                             <option value="1">SWE</option>
                                             <option value="2">CSE</option>
                                             <option value="3">BBA</option>

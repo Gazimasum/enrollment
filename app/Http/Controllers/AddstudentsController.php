@@ -24,7 +24,7 @@ class AddstudentsController extends Controller
         $data['student_fathersname'] = $request->student_fathersname;
         $data['student_mothersname'] = $request->student_mothersname;
         $data['student_email'] = $request->student_email;
-        $data['student_password'] = md5($request->student_password);
+        $data['student_password'] = $request->student_password;
         $data['student_phone'] = $request->student_phone;
         $data['student_address'] = $request->student_address;
         $data['student_admissionyear'] = $request->student_admissionyear;

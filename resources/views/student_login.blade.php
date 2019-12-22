@@ -7,7 +7,7 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>Salt Admin</title>
+    <title>Student</title>
     <!-- plugins:css -->
     <link rel="stylesheet" href="{{asset('node_modules/mdi/css/materialdesignicons.min.css')}}">
     <link rel="stylesheet" href="{{asset('node_modules/perfect-scrollbar/dist/css/perfect-scrollbar.min.css')}}">
@@ -28,7 +28,7 @@
             <div class="content-wrapper full-page-wrapper d-flex align-items-center auth-pages">
                 <div class="card col-lg-4 mx-auto">
                     <div class="card-body px-5 py-5">
-                        <h3 class="card-title text-left mb-3">Login</h3>
+                        <h3 class="card-title text-left mb-3">Student Login</h3>
                         <p class="alert-success">
                             <?php
                             $exception=Session::get('exception');
@@ -45,7 +45,7 @@
                             {{csrf_field()}}
 
                             <div class="form-group">
-                                <label>Username or email *</label>
+                                <label>Email *</label>
                                 <input type="text" name="student_email" class="form-control p_input">
                             </div>
                             <div class="form-group">
